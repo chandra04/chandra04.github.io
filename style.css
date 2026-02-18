@@ -122,6 +122,7 @@ span {
 
 .home-img img {
     width: 20vw;
+    margin-left: 4rem;
     animation:  none;/*floatImage 4s ease-in-out infinite;*/
 }
 
