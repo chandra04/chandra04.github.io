@@ -150,7 +150,7 @@ span {
     background: transparent;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
-    font-size: 4rem;
+    font-size: 8rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 4rem 0;
     transition: .5s ease;
