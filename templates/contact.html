@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="contact">
+
+<h2 class="heading">Contact</h2>
+
+<div class="contact-card">
+
+<ul class="contact-list">
+
+<li>
+<i class="bi bi-envelope-fill"></i>
+<span>Email:</span>
+<a href="mailto:navinchandra2003@gmail.com">
+navinchandra2003@gmail.com
+</a>
+</li>
+
+<li>
+<i class="bi bi-telephone-fill"></i>
+<span>Phone:</span>
++919560690140
+</li>
+
+</ul>
+
+<hr>
+
+<h4 class="profile-title">Academic Profiles</h4>
+
+<div class="profile-buttons">
+
+<a href="https://orcid.org/0000-0001-9891-887X" target="_blank" class="btn profile-btn orcid">
+ORCID
+</a>
+
+<a href="https://scholar.google.com/citations?hl=en&user=1rpRKLAAAAAJ" target="_blank" class="btn profile-btn scholar">
+Google Scholar
+</a>
+
+<a href="https://www.linkedin.com/in/navin-chandra-877a0140" target="_blank" class="btn profile-btn linkedin">
+LinkedIn
+</a>
+
+<a href="https://www.researchgate.net/profile/Navin_Chandra6" target="_blank" class="btn profile-btn researchgate">
+ResearchGate
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.heading{
+font-size:30px;
+margin-bottom:25px;
+font-weight:600;
+border-bottom:3px solid #027f43;
+display:inline-block;
+padding-bottom:5px;
+}
+
+/* Contact Card */
+
+.contact-card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0px 3px 12px rgba(0,0,0,0.08);
+max-width:550px;
+}
+
+/* Contact List */
+
+.contact-list{
+list-style:none;
+padding:0;
+}
+
+.contact-list li{
+font-size:17px;
+margin-bottom:18px;
+display:flex;
+align-items:center;
+}
+
+.contact-list i{
+color:#027f43;
+font-size:20px;
+margin-right:12px;
+}
+
+.contact-list span{
+font-weight:600;
+margin-right:8px;
+}
+
+.contact-list a{
+text-decoration:none;
+color:#333;
+}
+
+.contact-list a:hover{
+color:#027f43;
+}
+
+/* Academic Profile Buttons */
+
+.profile-title{
+margin-top:20px;
+margin-bottom:15px;
+font-weight:600;
+}
+
+.profile-buttons{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+/* Buttons */
+
+.profile-btn{
+color:white;
+border:none;
+font-size:14px;
+padding:8px 14px;
+border-radius:6px;
+text-decoration:none;
+}
+
+/* Individual colors */
+
+.orcid{
+background:#a6ce39;
+}
+
+.scholar{
+background:#4285f4;
+}
+
+.linkedin{
+background:#0077b5;
+}
+
+.researchgate{
+background:#00ccbb;
+}
+
+.profile-btn:hover{
+opacity:0.85;
+}
+
+</style>
+
+{% endblock %}
