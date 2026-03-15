@@ -1,0 +1,13 @@
+bibtexparser
+blinker
+click
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+packaging
+pip
+pyparsing
+setuptools
+Werkzeug
+wheel
