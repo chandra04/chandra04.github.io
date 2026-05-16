@@ -3,114 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Main CSS-->
+    <title>Navin Chandra - Physical Oceanographer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>NAVIN CHANDRA</title>
 </head>
 <body>
-<!---Header Design-->
-<header class="header">
-    <a href="" class="logo">NAVIN CHANDRA</a>
-    <i class="fa-solid fa-bars" id="menu-icon"></i>
-    <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#publication">Publication</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
-<!--HOME SECTION Design-->
-<section class="home" id="home">
-    <div class="home-content">
-        <h3>Hi, Myself</h3>
-        <h1>Navin Chandra</h1>
-        <h3>And I'm a <span>Physical Oceanographer</span></h3>
-
-        <div class="social-media">
-            <a href="https://www.linkedin.com/in/navin-chandra-877a0140/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://www.researchgate.net/profile/Navin_Chandra6" target="_blank"><i class="fa-brands fa-researchgate"></i></a>
-            <a href="https://orcid.org/0000-0001-9891-887X" target="_blank"><i class="fa-brands fa-orcid"></i></a>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">NC</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#publication">Publications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <a href="Navin_Chandra_CV.pdf" target="_blank" class="btn">Download CV</a>
-    </div>
-    <div class="home-img">
-        <img src="img/navin_new_wb.png" alt="">
-    </div>
-</section>
+    </nav>
 
-<!-- About Section -->
- <section class="about" id="about">
-    <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <p>I am a physical oceanographer and ocean modeller. Currently, I am working as a  Project Scientist-II at the National Centre for Medium Range Weather Forecasting (NCMRWF), Noida, which comes under the Ministry of Earth Sciences, Govt. of India. I have completed my PhD from Centre for Atmospheric Sciences, Indian Institute of Technology Delhi. My primary research area is mesoscale oceanic eddies of the Bay of Bengal, which I have explored using the ROMS and the COAWST numerical model.</p>
-    </div>
- </section>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <p style="font-size: 0.9rem; color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;">Welcome to my portfolio</p>
+                <h1>Navin Chandra</h1>
+                <div class="subtitle">Physical Oceanographer & Ocean Modeller</div>
+                <p>Exploring the dynamics of mesoscale oceanic eddies and their impacts on the Bay of Bengal through advanced numerical modelling.</p>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/navin-chandra-877a0140/" target="_blank" title="LinkedIn">in</a>
+                    <a href="https://www.researchgate.net/profile/Navin_Chandra6" target="_blank" title="ResearchGate">RG</a>
+                    <a href="https://orcid.org/0000-0001-9891-887X" target="_blank" title="ORCID">ID</a>
+                </div>
+                
+                <a href="NAVIN_CHANDRA_CV.pdf" class="cta-button" target="_blank">↓ Download CV</a>
+            </div>
+            <div class="hero-image">
+                <img src="navin.png" alt="Navin Chandra - Physical Oceanographer" title="Navin Chandra">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a dedicated physical oceanographer and ocean modeller with a passion for understanding the intricate dynamics of marine environments. Currently serving as a Project Scientist-II at the National Centre for Medium Range Weather Forecasting (NCMRWF) under the Ministry of Earth Sciences, Government of India.</p>
+                    
+                    <p>My research focuses on mesoscale oceanic eddies in the Bay of Bengal, utilizing advanced numerical models like ROMS and COAWST. This work has deepened my understanding of how these dynamic structures influence broader oceanographic and atmospheric processes.</p>
+                </div>
+                
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <h4>Current Role</h4>
+                        <p>Project Scientist-II at NCMRWF</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Education</h4>
+                        <p>PhD from IIT Delhi</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Expertise</h4>
+                        <p>Mesoscale Eddies & Ocean Modelling</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Research</h4>
+                        <p>Bay of Bengal Dynamics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Project Scientist-II</h4>
+                    <div class="date">March 2023 – Present</div>
+                    <p><strong>National Centre for Medium Range Weather Forecasting (NCMRWF)</strong><br>Ministry of Earth Sciences, Govt. of India, Noida</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Senior Research Fellow</h4>
+                    <div class="date">July 2019 – March 2023</div>
+                    <p><strong>Centre for Atmospheric Sciences</strong><br>Indian Institute of Technology Delhi</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Junior Research Fellow</h4>
+                    <div class="date">July 2017 – June 2019</div>
+                    <p><strong>Centre for Atmospheric Sciences</strong><br>Indian Institute of Technology Delhi</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Project Assistant</h4>
+                    <div class="date">November 2016 – June 2017</div>
+                    <p><strong>Centre for Atmospheric Sciences</strong><br>Indian Institute of Technology Delhi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="degree">PhD</div>
+                    <div class="institution">Centre for Atmospheric Sciences<br>Indian Institute of Technology Delhi</div>
+                    <p style="font-size: 0.95rem; color: var(--text-light); margin-top: 0.8rem;">Study of Oceanic Mesoscale Eddies of Bay of Bengal using a Numerical Model</p>
+                    <div class="year">Expected 2025</div>
+                </div>
+
+                <div class="education-card">
+                    <div class="degree">M.Tech</div>
+                    <div class="institution">Atmospheric and Oceanic Science & Technology<br>IIT Delhi</div>
+                    <div class="year">2016</div>
+                </div>
+
+                <div class="education-card">
+                    <div class="degree">B.Tech</div>
+                    <div class="institution">Mechanical Engineering<br>Biju Patnaik University of Technology, Rourkela</div>
+                    <div class="year">2012</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publication">
+        <div class="container">
+            <h2>Publications</h2>
+            
+            <h3 style="font-size: 1.5rem; color: var(--primary); margin-top: 2.5rem; margin-bottom: 1.5rem; padding-bottom: 0.8rem; border-bottom: 2px solid #ffa500;">Under Review/In Preparation</h3>
+            
+            <div class="publication-item" style="border-left-color: #ffa500; opacity: 0.9;" data-number="2">
+                <p><strong>Chandra Navin</strong>, Ankur Gupta, Akhilesh Kumar Mishra and Raghavendra Ashrit, "Eddy activity on both sides of the Indian Peninsula with the help of the gridded sea surface height,," <em>Journal of Oceanograpgy</em> (Under Review).</p>
+            </div>
+
+            <div class="publication-item" style="border-left-color: #ffa500; opacity: 0.9;" data-number="1">
+                <p><strong>Chandra Navin</strong>, Imranali M. Momin, and Raghavendra Ashrit, "Bias estimation in GHRSST data for different seasons over the Indian Ocean relative to in-situ data,,"  (In Preparation).</p>
+            </div>
 
 
- <!-- Experience Section -->
-<section class="experience" id="experience">
-     <h2 class="heading">EXPERIENCE </h2>
-     <ol class="exp-list" type="1">
-        <li> <b>March 2023 to Today:</b> Project Scientist-II, National Centre for Medium Range Weather Forecasting, MoES, Govt. of India, NOIDA.</li>
-        <li> <b>July 2019-March 2023:</b> Senior Research Fellow, Centre for Atmospheric Sciences, Indian Institute of Technology Delhi.</li>
-         <li> <b>July 2017-June 2019:</b> Junior Research Fellow, Centre for Atmospheric Sciences, Indian Institute of Technology Delhi.</li>
-        <li> <b>Nov 2016-June 2017:</b> Project Assistant, Centre for Atmospheric Sciences, Indian Institute of Technology Delhi.</li>
+            <h3 style="font-size: 1.5rem; color: var(--primary); margin-top: 2.5rem; margin-bottom: 1.5rem; padding-bottom: 0.8rem; border-bottom: 2px solid var(--accent);">Published</h3>
 
-     </ol>
-</section>
+            <div class="publication-item" data-number="5">
+                <p><strong>Chandra Navin</strong>, Vimlesh Pant, "Variability of mesoscale eddies and their kinetic energy in the Bay of Bengal using a high-resolution ocean model," <em>Regional Studies in Marine Science</em>, Vol. 89, pp. 104329, 2025.</p>
+                <a href="https://doi.org/10.1016/j.rsma.2025.104329" target="_blank">DOI: 10.1016/j.rsma.2025.104329</a>
+                <div class="publication-year">2025</div>
+            </div>
 
-<section class="education" id="education">
-     <h2 class="heading">EDUCATION</h2>
-     <ol class="exp-list" type="1">
-        <li>  <b>PhD (2025):</b> Centre for Atmospheric Sciences, Indian Institute of Technology Delhi, Study of Oceanic Mesoscale Eddies of Bay of Bengal using a Numerical Model.</li>
-        <li>  <b>M.Tech (2016):</b> Atmospheric and Oceanic Science & Technology, Centre for Atmospheric Sciences, Indian Institute of Technology Delhi.</li>
-        <li>  <b>B.Tech (2012):</b> Mechanical Engineering, Biju Pattnaik University of Technology, Rourkela, India</li>
+            <div class="publication-item" data-number="4">
+                <p><strong>Chandra Navin</strong>, Vimlesh Pant, K. R. Prakash, "Influence of cyclonic and anticyclonic mesoscale oceanic eddies on thermodynamic characteristics of near-surface atmospheric column," <em>Quarterly Journal of the Royal Meteorological Society</em>, 2025.</p>
+                <a href="https://doi.org/10.1002/qj.5036" target="_blank">DOI: 10.1002/qj.5036</a>
+                <div class="publication-year">2025</div>
+            </div>
 
-     </ol>
-</section>
+            <div class="publication-item" data-number="3">
+                <p><strong>Chandra Navin</strong>, Vimlesh Pant, "Impact of Indian Ocean Dipole on the mesoscale eddies and their energy in the Bay of Bengal," <em>Oceanologia</em>, Vol. 67, No. 1, 2025.</p>
+                <a href="https://doi.org/10.5697/ygvi7171" target="_blank">DOI: 10.5697/ygvi7171</a>
+                <div class="publication-year">2025</div>
+            </div>
 
-<section class="publication" id="publication">
-     <h2 class="heading">PUBLICATION</h2>
-     <ol class="exp-list" type="1">
-        <li> <b>Chandra Navin</b>, Vimlesh Pant, Variability of mesoscale eddies and their kinetic energy in the Bay of Bengal using a high-resolution ocean model, Regional Studies in Marine Science, 89 (2025) 104329, <a href="https://doi.org/10.1016/j.rsma.2025.104329" target="_blank">https://doi.org/10.1016/j.rsma.2025.104329</a>, 2025.</li>
+            <div class="publication-item" data-number="2">
+                <p>Prakash, K.R., Vimlesh Pant, T.V.S. Udaya Bhaskar, <strong>Navin Chandra</strong>, "What Made the Sustained Intensification of Tropical Cyclone Fani in the Bay of Bengal? An Investigation Using Coupled Atmosphere–Ocean Model," <em>Atmosphere</em>, Vol. 13, p. 535, 2022.</p>
+                <a href="https://doi.org/10.3390/atmos13040535" target="_blank">DOI: 10.3390/atmos13040535</a>
+                <div class="publication-year">2022</div>
+            </div>
 
-        <li> <b>Chandra Navin</b>, Vimlesh Pant, K. R. Prakash, Influence of cyclonic and anticyclonic mesoscale oceanic eddies on thermodynamic characteristics of near-surface atmospheric column, Quarterly Journal of the Royal Meteorological Society,2025;e5036, <a href="https://doi.org/10.1002/qj.5036" target="_blank">https://doi.org/10.1002/qj.5036</a>, 2025. </li>
+            <div class="publication-item" data-number="1">
+                <p>Prakash K. R., Tanuja Nigam, Vimlesh Pant, <strong>Navin Chandra</strong>, "On the interaction of mesoscale eddies and a tropical cyclone in the Bay of Bengal," <em>Natural Hazards</em>, 2021.</p>
+                <a href="https://doi.org/10.1007/s11069-021-04524-z" target="_blank">DOI: 10.1007/s11069-021-04524-z</a>
+                <div class="publication-year">2021</div>
+            </div>
 
-        <li> <b>Chandra Navin</b>, Vimlesh Pant, Impact of Indian Ocean Dipole on the mesoscale eddies and their energy in the Bay of Bengal, Oceanologia,67 (1), <a href="https://doi.org/10.5697/ygvi7171" target="_blank">https://doi.org/10.5697/ygvi7171</a>, 2025. </li>
+        </div>
+    </section>
 
-        <li> Prakash, K.R., Vimlesh Pant, T.V.S. Udaya Bhaskar, <b>Navin Chandra</b>, What Made the Sustained Intensification of Tropical Cyclone Fani in the Bay of Bengal? An Investigation Using Coupled Atmosphere¿Ocean Model, Atmosphere, 13, 535, <a href="https://doi.org/10.3390/atmos13040535" target="_blank">https://doi.org/10.3390/atmos13040535</a>, 2022. </li>
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Numerical Models</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ROMS</span>
+                        <span class="skill-tag">COAWST</span>
+                    </div>
+                </div>
 
-        <li> Prakash K. R., Tanuja Nigam, Vimlesh Pant, <b>Navin Chandra</b>, On the interaction of mesoscale eddies and a tropical cyclone in the Bay of Bengal, Natural Hazards, <a href="https://doi.org/10.1007/s11069-021-04524-z" target="_blank">https://doi.org/10.1007/s11069-021-04524-z</a> 2021. </li>
-        
+                <div class="skill-category">
+                    <h4>Programming Languages</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Fortran</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">Bash</span>
+                    </div>
+                </div>
 
-     </ol>
-</section>
+                <div class="skill-category">
+                    <h4>Operating Systems</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">macOS</span>
+                        <span class="skill-tag">Windows</span>
+                    </div>
+                </div>
 
-<section class="skills" id="skills">
-    <h2 class="heading">SKILLS</h2>
-    <ul class="exp-list">
-        <li><Span>Numerical Model:</Span> ROMS, COAWST</li>
-        <li><span>Coding:</span> Python, Fortran, Matlab, Bash</li>
-        <li><span>OS:</span> Linux, Mac OS, Windos</li>
-        <li><span>Climate Data Analysis Tool: </span> CDO, NCO, Ferret</li>
+                <div class="skill-category">
+                    <h4>Data Analysis Tools</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">CDO</span>
+                        <span class="skill-tag">NCO</span>
+                        <span class="skill-tag">Ferret</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </ul>
-</section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <h4>Email</h4>
+                    <p><a href="mailto:navinchandra2003@gmail.com">navinchandra2003@gmail.com</a></p>
+                </div>
+                <div class="contact-method">
+                    <h4>Phone</h4>
+                    <p><a href="tel:+919560690140">+91 9560 690140</a></p>
+                </div>
+                <div class="contact-method">
+                    <h4>Location</h4>
+                    <p>Noida, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="contact" id="contact">
-    <h2 class="heading">CONTACT</h2>
-    <ul class="exp-list">
-        <li><span>EMAIL: </span>navinchandra2003@gmail.com</li>
-        <li><span>Phone: </span>+919560690140</li>
-
-    </ul>
-</section>
-
-    <script src="main.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Navin Chandra. All rights reserved. | Designed with care</p>
+        </div>
+    </footer>
 </body>
 </html>
