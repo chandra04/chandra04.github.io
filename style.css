@@ -507,6 +507,11 @@
             color: black;
         }
 
+        .publication-item[style*="border-left-color: #0e8b6c"]::before {
+            background: #0e8b6c;
+            color: black;
+        }
+
         .publication-item:hover {
             transform: translateX(5px);
             box-shadow: 0 4px 12px rgba(15, 58, 125, 0.08);
@@ -515,7 +520,7 @@
         .publication-item p {
             color: var(--text-light);
             line-height: 1.7;
-            margin-bottom: 0.8rem;
+            margin-bottom: 0.5rem;
         }
 
         .publication-item a {
@@ -523,6 +528,11 @@
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s ease;
+        }
+
+        .publication-item[style*="border-left-color: #27ae60"]::before {
+            background: #27ae60;
+            color: black;
         }
 
         .publication-item a:hover {
