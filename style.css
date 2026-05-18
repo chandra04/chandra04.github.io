@@ -512,6 +512,11 @@
             color: black;
         }
 
+        .publication-item[style*="border-left-color: #d8d520"]::before {
+            background: #d8d520;
+            color: black;
+        }
+
         .publication-item:hover {
             transform: translateX(5px);
             box-shadow: 0 4px 12px rgba(15, 58, 125, 0.08);
