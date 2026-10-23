@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navin Chandra - Physical Oceanographer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -143,112 +143,225 @@
     <section id="publication">
         <div class="container">
             <h2>Publications</h2>
-            
-            <h3 style="font-size: 1.5rem; color: var(--primary); margin-top: 2.5rem; margin-bottom: 1.5rem; padding-bottom: 0.8rem; border-bottom: 2px solid var(--accent);">Under Review/In Preparation</h3>
+            <!-- Numbering is automatic: each <ol reversed> counts down. Just add/remove <li class="pub"> items. -->
 
-
-            <div class="publication-item" style="border-left-color: #ffa500; opacity: 0.9;" data-number="5">
-                <p><strong>Chandra Navin</strong> D. K. Mohapatra,and, Imranali M. Momin, "From Salinity to Cyclone Fuel: Assimilating ARGO Profiles in the Bay of Bengal" <em>Deep-Sea Research Part II: Topical Studies in Oceanography </em> (Under Preparation).</p>
+            <!-- Summary strip (each card jumps to its group) -->
+            <div class="pub-summary">
+                <a class="pub-stat" href="#pub-published">
+                    <strong>5</strong><span>Journal articles</span>
+                </a>
+                <a class="pub-stat" href="#pub-review">
+                    <strong>5</strong><span>Under review &amp; in prep.</span>
+                </a>
+                <a class="pub-stat" href="#pub-reports">
+                    <strong>3</strong><span>Technical reports</span>
+                </a>
+                <a class="pub-stat" href="#pub-talks">
+                    <strong>5</strong><span>Conference presentations</span>
+                </a>
             </div>
 
-            <div class="publication-item" style="border-left-color: #ffa500; opacity: 0.9;" data-number="4">
-                <p><strong>Chandra Navin</strong> Jivesh Dixit, Vimlesh Pant, Akhilesh Kumar Mishra and, Imranali M. Momin, "How Wind Strength Shapes Mesoscale Eddies in the Bay of Bengal" <em>Journal of Geophysical Research: Ocean </em> (Under Preparation).</p>
+            <!-- ===== Published ===== -->
+            <div class="pub-group" id="pub-published">
+                <h3 class="pub-group-title">Peer-reviewed Journal Articles</h3>
+                <ol class="pub-list" reversed>
+
+                    <li class="pub">
+                        <h4 class="pub-title">Variability of mesoscale eddies and their kinetic energy in the Bay of Bengal using a high-resolution ocean model</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Vimlesh Pant</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">Regional Studies in Marine Science, 89, 104329</span>
+                            <span class="pub-year">2025</span>
+                            <a class="pub-link" href="https://doi.org/10.1016/j.rsma.2025.104329" target="_blank" rel="noopener">DOI ↗</a>
+                        </div>
+                    </li>
+
+                    <li class="pub">
+                        <h4 class="pub-title">Influence of cyclonic and anticyclonic mesoscale oceanic eddies on thermodynamic characteristics of near-surface atmospheric column</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Vimlesh Pant, K. R. Prakash</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">Quarterly Journal of the Royal Meteorological Society</span>
+                            <span class="pub-year">2025</span>
+                            <a class="pub-link" href="https://doi.org/10.1002/qj.5036" target="_blank" rel="noopener">DOI ↗</a>
+                        </div>
+                    </li>
+
+                    <li class="pub">
+                        <h4 class="pub-title">Impact of Indian Ocean Dipole on the mesoscale eddies and their energy in the Bay of Bengal</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Vimlesh Pant</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">Oceanologia, 67(1)</span>
+                            <span class="pub-year">2025</span>
+                            <a class="pub-link" href="https://doi.org/10.5697/ygvi7171" target="_blank" rel="noopener">DOI ↗</a>
+                        </div>
+                    </li>
+
+                    <li class="pub">
+                        <h4 class="pub-title">What made the sustained intensification of Tropical Cyclone Fani in the Bay of Bengal? An investigation using coupled atmosphere–ocean model</h4>
+                        <p class="pub-authors">K. R. Prakash, Vimlesh Pant, T. V. S. Udaya Bhaskar, <span class="me">Navin Chandra</span></p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">Atmosphere, 13, 535</span>
+                            <span class="pub-year">2022</span>
+                            <a class="pub-link" href="https://doi.org/10.3390/atmos13040535" target="_blank" rel="noopener">DOI ↗</a>
+                        </div>
+                    </li>
+
+                    <li class="pub">
+                        <h4 class="pub-title">On the interaction of mesoscale eddies and a tropical cyclone in the Bay of Bengal</h4>
+                        <p class="pub-authors">K. R. Prakash, Tanuja Nigam, Vimlesh Pant, <span class="me">Navin Chandra</span></p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">Natural Hazards, 106</span>
+                            <span class="pub-year">2021</span>
+                            <a class="pub-link" href="https://doi.org/10.1007/s11069-021-04524-z" target="_blank" rel="noopener">DOI ↗</a>
+                        </div>
+                    </li>
+
+                </ol>
             </div>
 
-            <div class="publication-item" style="border-left-color: #ffa500; opacity: 0.9;" data-number="3">
-                <p><strong>Chandra Navin</strong>, Vimlesh Pant and Imranali M. Momin, "Where the Cascade Breaks: How Ocean Model Resolution Silently Erases the Ageostrophic Energy Pathway in the Bay of Bengal," <em>Journal of Physical Oceanography </em> (Under Review).</p>
-            </div>
-            
-            <div class="publication-item" style="border-left-color: #ffa500; opacity: 0.9;" data-number="2">
-                <p><strong>Chandra Navin</strong>, Ankur Gupta, Akhilesh Kumar Mishra and Raghavendra Ashrit, "Eddy activity on both sides of the Indian Peninsula with the help of the gridded sea surface height,," <em>Journal of Oceanography</em> (Under Review).</p>
-            </div>
+            <!-- ===== Under review / in preparation ===== -->
+            <div class="pub-group" id="pub-review">
+                <h3 class="pub-group-title">Under Review &amp; In Preparation</h3>
+                <ol class="pub-list" reversed>
 
-            <div class="publication-item" style="border-left-color: #ffa500; opacity: 0.9;" data-number="1">
-                <p><strong>Chandra Navin</strong>, Jivesh Dixit, Imranali M. Momin, and Raghavendra Ashrit, "Quantifying Interpolation-Induced Representativeness Error in Satellite SST over the Indian Ocean,"  <em>Quarterly Journal of the Royal Meteorological Society</em>(Under Revier).</p>
-            </div>
+                    <li class="pub">
+                        <h4 class="pub-title">From salinity to cyclone fuel: Assimilating Argo profiles in the Bay of Bengal</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, D. K. Mohapatra, Imranali M. Momin</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">Deep-Sea Research Part II: Topical Studies in Oceanography</span>
+                            <span class="badge badge--prep">In preparation</span>
+                        </div>
+                    </li>
 
+                    <li class="pub">
+                        <h4 class="pub-title">How wind strength shapes mesoscale eddies in the Bay of Bengal</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Jivesh Dixit, Vimlesh Pant, Akhilesh Kumar Mishra, Imranali M. Momin</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">Journal of Geophysical Research: Oceans</span>
+                            <span class="badge badge--prep">In preparation</span>
+                        </div>
+                    </li>
 
-            <h3 style="font-size: 1.5rem; color: var(--primary); margin-top: 2.5rem; margin-bottom: 1.5rem; padding-bottom: 0.8rem; border-bottom: 2px solid var(--accent);">Published</h3>
+                    <li class="pub">
+                        <h4 class="pub-title">Where the cascade breaks: How ocean model resolution silently erases the ageostrophic energy pathway in the Bay of Bengal</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Vimlesh Pant, Imranali M. Momin</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">Journal of Physical Oceanography</span>
+                            <span class="badge badge--review">Under review</span>
+                        </div>
+                    </li>
 
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;"data-number="5">
-                <p><strong>Chandra Navin</strong>, Vimlesh Pant, "Variability of mesoscale eddies and their kinetic energy in the Bay of Bengal using a high-resolution ocean model," <em>Regional Studies in Marine Science</em>, Vol. 89, pp. 104329, 2025.</p>
-                <a href="https://doi.org/10.1016/j.rsma.2025.104329" target="_blank">DOI </a>
-                <div class="publication-year">2025</div>
-            </div>
+                    <li class="pub">
+                        <h4 class="pub-title">Eddy activity on both sides of the Indian Peninsula with the help of the gridded sea surface height</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Ankur Gupta, Akhilesh Kumar Mishra, Raghavendra Ashrit</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">Journal of Oceanography</span>
+                            <span class="badge badge--review">Under review</span>
+                        </div>
+                    </li>
 
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;"data-number="4">
-                <p><strong>Chandra Navin</strong>, Vimlesh Pant, K. R. Prakash, "Influence of cyclonic and anticyclonic mesoscale oceanic eddies on thermodynamic characteristics of near-surface atmospheric column," <em>Quarterly Journal of the Royal Meteorological Society</em>, 2025.</p>
-                <a href="https://doi.org/10.1002/qj.5036" target="_blank">DOI </a>
-                <div class="publication-year">2025</div>
-            </div>
+                    <li class="pub">
+                        <h4 class="pub-title">Quantifying interpolation-induced representativeness error in satellite SST over the Indian Ocean</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Jivesh Dixit, Imranali M. Momin, Raghavendra Ashrit</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">Quarterly Journal of the Royal Meteorological Society</span>
+                            <span class="badge badge--review">Under review</span>
+                        </div>
+                    </li>
 
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;"data-number="3">
-                <p><strong>Chandra Navin</strong>, Vimlesh Pant, "Impact of Indian Ocean Dipole on the mesoscale eddies and their energy in the Bay of Bengal," <em>Oceanologia</em>, Vol. 67, No. 1, 2025.</p>
-                <a href="https://doi.org/10.5697/ygvi7171" target="_blank">DOI </a>
-                <div class="publication-year">2025</div>
-            </div>
-
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;"data-number="2">
-                <p>Prakash, K.R., Vimlesh Pant, T.V.S. Udaya Bhaskar, <strong>Navin Chandra</strong>, "What Made the Sustained Intensification of Tropical Cyclone Fani in the Bay of Bengal? An Investigation Using Coupled Atmosphere–Ocean Model," <em>Atmosphere</em>, Vol. 13, p. 535, 2022.</p>
-                <a href="https://doi.org/10.3390/atmos13040535" target="_blank">DOI </a>
-                <div class="publication-year">2022</div>
-            </div>
-
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;" data-number="1">
-                <p>Prakash K. R., Tanuja Nigam, Vimlesh Pant, <strong>Navin Chandra</strong>, "On the interaction of mesoscale eddies and a tropical cyclone in the Bay of Bengal," <em>Natural Hazards</em>, 2021.</p>
-                <a href="https://doi.org/10.1007/s11069-021-04524-z" target="_blank">DOI </a>
-                <div class="publication-year">2021</div>
-            </div>
-
-            <h3 style="font-size: 1.5rem; color: var(--primary); margin-top: 2.5rem; margin-bottom: 1.5rem; padding-bottom: 0.8rem; border-bottom: 2px solid var(--accent);">Reports & Technical Documents</h3>
-            
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;" data-number="3">
-                <p><strong>Chandra Navin</strong>, Ankur Gupta, Akhilesh Kumar Mishra and Raghavendra Ashrit, "Location-based marine forecast of major port cities of India and BIMSTEC member countries," <em>National Centre for Medium Range Weather Forecasting,</em> 2026.</p>
-                <a href="https://nwp.ncmrwf.gov.in/publications/rr/10.64349/nmrf.tr.4.2026" target="_blank" >View Report</a>
-                <div class="publication-year" >2026</div>
-            </div>
-            
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;" data-number="2">
-                <p><strong>Chandra Navin</strong>, Mohan S Thota and Raghavendra Ashrit, "Trend analysis of rainfall, maximum temperature, and minimum temperature over thailand using CRU TS 4.07 monthly data,," <em>National Centre for Medium Range Weather Forecasting,</em> 2024.</p>
-                <a href="https://nwp.ncmrwf.gov.in/publications/rr/10.64349/nmrf.rr.5.2024" target="_blank" >View Report</a>
-                <div class="publication-year" >2024</div>
+                </ol>
             </div>
 
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;" data-number="1">
-                <p>Tanvi Gupta, S. Indira Rani, Gibies George, John P. George, Sumit Kumar, Laxmikant Dhage, Nishtha Agarwal, Durgesh Nandan Piyush, ,<strong>Navin Chandra</strong>, and V. S. Prasad, "Microsat-2B (EOS-07) Microwave Humidity Sounder radiance assimilation in the NCUM System," <em>National Centre for Medium Range Weather Forecasting,</em> 2024.</p>
-                <a href="https://nwp.ncmrwf.gov.in/publications/rr/10.64349/nmrf.rr.2.2024" target="_blank">View Report</a>
-                <div class="publication-year">2024</div>
+            <!-- ===== Reports ===== -->
+            <div class="pub-group" id="pub-reports">
+                <h3 class="pub-group-title">Reports &amp; Technical Documents</h3>
+                <ol class="pub-list" reversed>
+
+                    <li class="pub">
+                        <h4 class="pub-title">Location-based marine forecast of major port cities of India and BIMSTEC member countries</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Ankur Gupta, Akhilesh Kumar Mishra, Raghavendra Ashrit</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">NCMRWF Technical Report</span>
+                            <span class="pub-year">2026</span>
+                            <a class="pub-link" href="https://nwp.ncmrwf.gov.in/publications/rr/10.64349/nmrf.tr.4.2026" target="_blank" rel="noopener">View report ↗</a>
+                        </div>
+                    </li>
+
+                    <li class="pub">
+                        <h4 class="pub-title">Trend analysis of rainfall, maximum temperature, and minimum temperature over Thailand using CRU TS 4.07 monthly data</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Mohan S. Thota, Raghavendra Ashrit</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">NCMRWF Research Report</span>
+                            <span class="pub-year">2024</span>
+                            <a class="pub-link" href="https://nwp.ncmrwf.gov.in/publications/rr/10.64349/nmrf.rr.5.2024" target="_blank" rel="noopener">View report ↗</a>
+                        </div>
+                    </li>
+
+                    <li class="pub">
+                        <h4 class="pub-title">Microsat-2B (EOS-07) Microwave Humidity Sounder radiance assimilation in the NCUM system</h4>
+                        <p class="pub-authors">Tanvi Gupta, S. Indira Rani, Gibies George, John P. George, Sumit Kumar, Laxmikant Dhage, Nishtha Agarwal, Durgesh Nandan Piyush, <span class="me">Navin Chandra</span>, V. S. Prasad</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">NCMRWF Research Report</span>
+                            <span class="pub-year">2024</span>
+                            <a class="pub-link" href="https://nwp.ncmrwf.gov.in/publications/rr/10.64349/nmrf.rr.2.2024" target="_blank" rel="noopener">View report ↗</a>
+                        </div>
+                    </li>
+
+                </ol>
             </div>
 
-            <h3 style="font-size: 1.5rem; color: var(--primary); margin-top: 2.5rem; margin-bottom: 1.5rem; padding-bottom: 0.8rem; border-bottom: 2px solid var(--accent);">Conference and Proceedings</h3>
+            <!-- ===== Conferences ===== -->
+            <div class="pub-group" id="pub-talks">
+                <h3 class="pub-group-title">Conference Presentations</h3>
+                <ol class="pub-list" reversed>
 
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;" data-number="5">
-                <p><strong>Navin Chandra</strong> and Vimlesh Pant, "Mesoscale eddies in the bay of bengal and their response to IOD modes" <em>AGU General Assembly,</em>2022 (online) </p>
-                <div class="publication-year" >2022</div>
+                    <li class="pub">
+                        <h4 class="pub-title">Mesoscale eddies in the Bay of Bengal and their response to IOD modes</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Vimlesh Pant</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">AGU Fall Meeting (online)</span>
+                            <span class="pub-year">2022</span>
+                        </div>
+                    </li>
+
+                    <li class="pub">
+                        <h4 class="pub-title">Variability of eddy kinetic energy in the Bay of Bengal in the pretext of Indian Ocean Dipole</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Vimlesh Pant</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">AGU Fall Meeting (online)</span>
+                            <span class="pub-year">2021</span>
+                        </div>
+                    </li>
+
+                    <li class="pub">
+                        <h4 class="pub-title">Characteristics of mesoscale eddies in the Bay of Bengal using a numerical model</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Vimlesh Pant</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">OSICON-2021 (online)</span>
+                            <span class="pub-year">2021</span>
+                        </div>
+                    </li>
+
+                    <li class="pub">
+                        <h4 class="pub-title">Eddies and their energetics in the Bay of Bengal</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, Vimlesh Pant</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">EGU General Assembly, 4–8 May (online)</span>
+                            <span class="pub-year">2020</span>
+                        </div>
+                    </li>
+
+                    <li class="pub">
+                        <h4 class="pub-title">Simulation of sea surface variables over the Bay of Bengal in the high-resolution eddy-resolving set-up of ROMS model</h4>
+                        <p class="pub-authors"><span class="me">Navin Chandra</span>, K. K. Sandeep, Vimlesh Pant</p>
+                        <div class="pub-meta">
+                            <span class="pub-venue">RAROM-2016, CORAL, IIT Kharagpur</span>
+                            <span class="pub-year">2016</span>
+                        </div>
+                    </li>
+
+                </ol>
             </div>
-
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;" data-number="4">
-                <p><strong>Navin Chandra</strong> and Vimlesh Pant, "Variability of eddy kinetic energy in the bay of bengal in the pretext of indian ocean dipole" <em>AGU General Assembly,</em>2021 (online) </p>
-                <div class="publication-year" >2021</div>
-            </div>
-
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;" data-number="3">
-                <p><strong>Navin Chandra</strong> and Vimlesh Pant, "Characteristics of mesoscale eddies in the bay of bengal using a numerical model" <em>OSICON-2021,</em> </p>
-                <div class="publication-year" >2021</div>
-            </div>
-
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;" data-number="2">
-                <p><strong>Navin Chandra</strong> and Vimlesh Pant, "Eddies and their energetics in the bay of bengal" <em>EGU General Assemble,</em>4-8 May 2020 (Online) .</p>
-                <div class="publication-year" >2020</div>
-            </div>
-            
-            <div class="publication-item" style="border-left-color: #27ae60; opacity: 0.9;" data-number="1">
-                <p><strong>Navin Chandra</strong>, K. K. Sandeep and Vimlesh Pant, "Simulation of sea surface variables over the bay of bengal in the high resolution eddy-resolving set-up of roms model." <em>Recent Advancement in Regional Ocean Modelling (RAROM) 2016,</em> CORAL-Indian Institute of Technology Kharagpur, 2016.</p>
-                <div class="publication-year" >2016</div>
-            </div>
-
-
-            
 
         </div>
     </section>
@@ -321,7 +434,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Navin Chandra. All rights reserved. | Designed with care</p>
+            <p>&copy; 2026 Navin Chandra. All rights reserved. | Designed with care</p>
         </div>
     </footer>
 </body>
