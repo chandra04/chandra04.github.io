@@ -6,20 +6,29 @@
     <title>Navin Chandra - Physical Oceanographer</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Navigation -->
     <nav>
         <div class="container">
-            <div class="logo">NC</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
+            <a href="#home" class="logo" aria-label="Navin Chandra, back to top">
+                <span class="logo-mark">NC</span>
+                <span class="logo-text">Navin Chandra<small>Physical Oceanographer</small></span>
+            </a>
+
+            <!-- Mobile menu toggle (works without JavaScript) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+            <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span></label>
+
+            <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#publication">Publications</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li class="nav-cv"><a href="Navin_Chandra_CV.pdf" target="_blank" rel="noopener">CV ↓</a></li>
             </ul>
         </div>
     </nav>
@@ -56,6 +65,17 @@
                     <p>I am a dedicated physical oceanographer and ocean modeller with a passion for understanding the intricate dynamics of marine environments. Currently serving as a Project Scientist-II at the National Centre for Medium Range Weather Forecasting (NCMRWF) under the Ministry of Earth Sciences, Government of India.</p>
                     
                     <p>My research focuses on mesoscale oceanic eddies in the Bay of Bengal, utilizing advanced numerical models like ROMS and COAWST. This work has deepened my understanding of how these dynamic structures influence broader oceanographic and atmospheric processes.</p>
+
+                    <!-- The date below fills itself in: script.js asks GitHub when
+                         Navin_Chandra_CV.pdf was last committed. The text here is only
+                         a fallback, shown if GitHub can't be reached. -->
+                    <div class="cv-update">
+                        <div class="cv-update-info">
+                            <span class="cv-update-label">Curriculum Vitae</span>
+                            <span class="cv-update-date">Last updated <time id="cv-date" datetime="2026-10" data-repo="chandra04/chandra04.github.io" data-file="Navin_Chandra_CV.pdf">Oct-2026</time></span>
+                        </div>
+                        <a class="cv-update-link" href="Navin_Chandra_CV.pdf" target="_blank" rel="noopener">Download PDF ↓</a>
+                    </div>
                 </div>
                 
                 <div class="about-highlights">
