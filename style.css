@@ -412,26 +412,37 @@ nav .container {
     animation: slideInLeft 0.8s ease 0.3s both;
 }
 
+/* Each button uses its platform's own brand colour */
 .social-links a {
+    --brand: #ffffff;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+    width: 46px;
+    height: 46px;
     border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.35);
+    background: var(--brand);
     color: #fff;
+    font-size: 1.25rem;
     text-decoration: none;
-    transition: all 0.25s ease;
-    font-weight: 600;
-    font-size: 0.9rem;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.12), 0 6px 16px rgba(0, 0, 0, 0.25);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
 }
 
+.social-links a.social--linkedin     { --brand: #0a66c2; }
+.social-links a.social--researchgate { --brand: #00ccbb; }
+.social-links a.social--scholar      { --brand: #4285f4; }
+.social-links a.social--orcid        { --brand: #a6ce39; }
+
 .social-links a:hover {
-    background: var(--accent-light);
-    border-color: var(--accent-light);
-    color: var(--primary);
     transform: translateY(-3px);
+    filter: brightness(1.08);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3), 0 10px 22px rgba(0, 0, 0, 0.3);
+}
+
+.social-links a:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
 }
 
 .cta-button {
